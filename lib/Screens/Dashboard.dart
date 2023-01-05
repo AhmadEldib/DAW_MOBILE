@@ -15,7 +15,7 @@ class _DashboardState extends State<Dashboard> {
       backgroundColor: Theme.of(context).backgroundColor,
       body: Center(
         child: Text(
-          "Dashboard",
+          "My Dashboard",
           style: TextStyle(
             color: Theme.of(context).primaryColor,
             fontSize: 25,
@@ -25,3 +25,7 @@ class _DashboardState extends State<Dashboard> {
     );
   }
 }
+
+
+// git config --global user.email "you@example.com"
+// git config --global user.name "Your Name"
